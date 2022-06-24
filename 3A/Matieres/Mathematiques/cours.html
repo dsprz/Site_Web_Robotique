@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours de Robotique des 3A</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "../../../css/style.css">
+        <script src = "../../../js/simpleajax.js"></script>
+        <script type = "module" src = "../../../js/qol.js"></script>
+        <script type = "module" src = "../../../js/section.js"></script>
+    </head>
+    <body>
+        <h1>Mathématiques pour la Robotique 3<sup>e</sup> année</h1>
+        <form action = "../../../php/upload.php?matiere=Mathematiques&annee=3A&section=Cours&inputName=mathsFile" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" id = "mathsFile" name = "mathsFile[]" accept = "image/png, image/jpg, image/jpeg" multiple>
+            <input type = "submit" name = "submit" value = "Upload file">
+        </form>
+        <nav>
+            <ul>
+                <!--<li><a href = completion><span>completion</span></a></li>-->
+            </ul>
+        </nav>
+    </body>
+</html>

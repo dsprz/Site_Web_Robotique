@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id = "mathematiques">Mathématiques</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "../../../css/style.css">
+        <script src = "../../../js/simpleajax.js"></script>
+        <script type = "module" src = "../../../js/displayTDS.js"></script>
+    </head>
+    <body id = "3A">
+        <!--<div class = "fixed">
+            <img id = "right_arrow" src = "../../../img/fleche_droite.png" title = "Feuille suivante">
+            <img id = "left_arrow" src = "../../../img/fleche_gauche.png" title = "Feuille précédente">
+            <img id = "more_opacity" src = "../../../img/more_opacity.png" title = "Augmenter la luminosité de la feuille">
+            <img id = "less_opacity" src = "../../../img/more_opacity.png" title = "Diminuer la luminosité de la feuille">
+            <span id = "titre">Mathématiques</span>
+
+        </div>
+        <h1 id = "title_cours">Mathématiques</h1>
+        <form action = "../../../php/upload.php?page=Mathematiques" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" id = "mathsFile" name = "mathsFile" accept = "image/png, image/jpg, image/jpeg">
+            <input type = "submit" name = "submit" value = "Upload file">
+        </form>
+    -->
+        <form action = "../../../php/createTDFolder.php?annee=3A&matiere=Mathematiques" method = "POST">
+            <input type = "text" name = "folderName">
+            <input type = "submit" name = "submitFolder" value = "Create Folder">
+        </form>
+        <ul>
+        </ul>
+        <!--<div id = "image_container">
+            <input type = "checkbox" id = "btnControl"/>
+            <label class = "btn" for = "btnControl"><img id = "show"></label>
+        </div>-->
+        
+    </body>
+</html>
